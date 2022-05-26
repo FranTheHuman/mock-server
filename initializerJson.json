@@ -1,0 +1,36 @@
+[
+  {
+    "httpRequest": {
+      "path": "/login-tickets/phone",
+      "method" : "POST",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "phoneNumber": "+543517720604"  
+      }
+    },
+    "httpResponse": {
+      "statusCode": 204
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/login/phone",
+      "method" : "POST",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "phoneNumber": "+543517720603",
+        "code": "123456"
+      }
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"  
+      }
+    }
+  }
+]
